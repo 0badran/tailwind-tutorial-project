@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home | Car Auction</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		/>
+	</head>
+
+	<body class="bg-gray-900 text-white font-sans">
+		<!-- Navbar -->
+		<header class="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md z-50">
+			<nav
+				class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4"
+			>
+				<!-- Logo -->
+				<h1 class="text-2xl font-bold text-yellow-400">
+					Car<span class="text-white">Auction</span>
+				</h1>
+
+				<!-- Centered Nav Links -->
+				<ul class="hidden md:flex space-x-8 font-medium mx-auto">
+					<li>
+						<a
+							href="index.html"
+							class="text-yellow-400 font-semibold transition"
+							>Home</a
+						>
+					</li>
+					<li>
+						<a href="about.html" class="hover:text-yellow-400 transition"
+							>About</a
+						>
+					</li>
+					<li>
+						<a href="contact.html" class="hover:text-yellow-400 transition"
+							>Contact</a
+						>
+					</li>
+				</ul>
+
+				<!-- Auth Buttons -->
+				<div class="hidden md:flex space-x-3">
+					<a
+						href="login.html"
+						class="px-4 py-2 border border-yellow-400 text-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-black transition"
+					>
+						Login
+					</a>
+					<a
+						href="register.html"
+						class="px-4 py-2 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition"
+					>
+						Register
+					</a>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Hero Section -->
+		<section
+			class="relative h-screen flex items-center justify-center bg-cover bg-center bg-[url(https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=80)]"
+		>
+			<div class="absolute inset-0 bg-black/70"></div>
+			<div class="relative z-10 text-center px-6">
+				<h1 class="text-5xl md:text-6xl font-extrabold text-yellow-400 mb-4">
+					Find Your Dream Car
+				</h1>
+				<p class="text-gray-200 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+					Explore exclusive car auctions and bid with confidence on top-tier
+					vehicles.
+				</p>
+				<a
+					href="register.html"
+					class="bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-300 transition"
+				>
+					Get Started
+				</a>
+			</div>
+		</section>
+
+		<!-- Why Choose Us -->
+		<section class="max-w-7xl mx-auto px-6 py-20 text-center">
+			<h2 class="text-3xl font-bold text-yellow-400 mb-12">
+				Why Choose CarAuction?
+			</h2>
+			<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+				<div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition">
+					<i class="fa-solid fa-gavel text-yellow-400 text-4xl mb-4"></i>
+					<h3 class="text-xl font-semibold mb-2">Fair Bidding</h3>
+					<p class="text-gray-400 text-sm">
+						Transparent auctions ensuring fair play for every bidder.
+					</p>
+				</div>
+				<div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition">
+					<i class="fa-solid fa-car text-yellow-400 text-4xl mb-4"></i>
+					<h3 class="text-xl font-semibold mb-2">Verified Cars</h3>
+					<p class="text-gray-400 text-sm">
+						Each vehicle undergoes rigorous inspection before listing.
+					</p>
+				</div>
+				<div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition">
+					<i class="fa-solid fa-clock text-yellow-400 text-4xl mb-4"></i>
+					<h3 class="text-xl font-semibold mb-2">Fast & Secure</h3>
+					<p class="text-gray-400 text-sm">
+						Bid, win, and drive away faster than ever before.
+					</p>
+				</div>
+				<div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition">
+					<i class="fa-solid fa-headset text-yellow-400 text-4xl mb-4"></i>
+					<h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
+					<p class="text-gray-400 text-sm">
+						We’re here to help every step of the way.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Featured Cars -->
+		<section class="bg-gray-800 py-20">
+			<div class="max-w-7xl mx-auto px-6 text-center">
+				<h2 class="text-3xl font-bold text-yellow-400 mb-12">Featured Cars</h2>
+				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+					<div
+						class="bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition"
+					>
+						<img
+							src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80"
+							alt="Car"
+							class="w-full h-56 object-cover"
+						/>
+						<div class="p-6 text-left">
+							<h3 class="text-lg font-semibold mb-2">
+								2020 Lamborghini Huracán
+							</h3>
+							<p class="text-gray-400 text-sm mb-3">
+								Starting Bid:
+								<span class="text-yellow-400 font-semibold">$120,000</span>
+							</p>
+							<a
+								href="login.html"
+								class="text-yellow-400 hover:underline text-sm"
+								>Place a Bid →</a
+							>
+						</div>
+					</div>
+
+					<div
+						class="bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition"
+					>
+						<img
+							src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80"
+							alt="Car"
+							class="w-full h-56 object-cover"
+						/>
+						<div class="p-6 text-left">
+							<h3 class="text-lg font-semibold mb-2">2019 Ferrari 488 GTB</h3>
+							<p class="text-gray-400 text-sm mb-3">
+								Starting Bid:
+								<span class="text-yellow-400 font-semibold">$150,000</span>
+							</p>
+							<a
+								href="login.html"
+								class="text-yellow-400 hover:underline text-sm"
+								>Place a Bid →</a
+							>
+						</div>
+					</div>
+
+					<div
+						class="bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition"
+					>
+						<img
+							src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80"
+							alt="Car"
+							class="w-full h-56 object-cover"
+						/>
+						<div class="p-6 text-left">
+							<h3 class="text-lg font-semibold mb-2">
+								2021 Porsche 911 Carrera
+							</h3>
+							<p class="text-gray-400 text-sm mb-3">
+								Starting Bid:
+								<span class="text-yellow-400 font-semibold">$110,000</span>
+							</p>
+							<a
+								href="login.html"
+								class="text-yellow-400 hover:underline text-sm"
+								>Place a Bid →</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Call to Action -->
+		<section class="py-20 text-center bg-gray-900">
+			<h2 class="text-3xl font-bold text-yellow-400 mb-4">
+				Ready to Join the Action?
+			</h2>
+			<p class="text-gray-300 mb-8">
+				Create your account and start bidding on world-class vehicles today.
+			</p>
+			<a
+				href="register.html"
+				class="bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-300 transition"
+			>
+				Register Now
+			</a>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-gray-900 text-gray-300 py-12">
+			<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+				<!-- Logo & About -->
+				<div>
+					<a href="index.html" class="flex items-center gap-2 mb-4">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="currentColor"
+							class="w-8 h-8 text-yellow-500"
+							viewBox="0 0 24 24"
+						>
+							<path
+								d="M12 2l10 6-10 6L2 8l10-6zM2 8v8l10 6 10-6V8l-10 6L2 8z"
+							/>
+						</svg>
+						<span class="text-2xl font-bold text-white"
+							>Car<span class="text-yellow-500">Auction</span></span
+						>
+					</a>
+					<p class="text-sm leading-relaxed">
+						Your trusted platform for buying and selling vehicles. Safe, fast,
+						and transparent online car auctions.
+					</p>
+				</div>
+
+				<!-- Quick Links -->
+				<div>
+					<h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+					<ul class="space-y-2">
+						<li>
+							<a href="index.html" class="hover:text-yellow-500 transition"
+								>Home</a
+							>
+						</li>
+						<li>
+							<a href="about.html" class="hover:text-yellow-500 transition"
+								>About Us</a
+							>
+						</li>
+						<li>
+							<a href="contact.html" class="hover:text-yellow-500 transition"
+								>Contact</a
+							>
+						</li>
+						<li>
+							<a href="login.html" class="hover:text-yellow-500 transition"
+								>Login</a
+							>
+						</li>
+						<li>
+							<a href="register.html" class="hover:text-yellow-500 transition"
+								>Register</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Contact Info -->
+				<div>
+					<h3 class="text-white text-lg font-semibold mb-4">Get in Touch</h3>
+					<ul class="space-y-2">
+						<li>
+							<span class="font-medium">Email:</span> support@carauction.com
+						</li>
+						<li><span class="font-medium">Phone:</span> +1 800 123 4567</li>
+						<li>
+							<span class="font-medium">Location:</span> 123 Auto Street, New
+							York, USA
+						</li>
+					</ul>
+					<div class="flex gap-4 mt-4">
+						<a href="#" class="hover:text-yellow-500"
+							><i class="fa-brands fa-facebook-f"></i
+						></a>
+						<a href="#" class="hover:text-yellow-500"
+							><i class="fa-brands fa-twitter"></i
+						></a>
+						<a href="#" class="hover:text-yellow-500"
+							><i class="fa-brands fa-instagram"></i
+						></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm">
+				© <span id="year"></span> CarAuction. All rights reserved.
+			</div>
+
+			<script>
+				document.getElementById("year").textContent = new Date().getFullYear();
+			</script>
+		</footer>
+	</body>
+</html>

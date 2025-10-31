@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About Us | Car Auction</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		/>
+	</head>
+	<body class="bg-gray-900 text-white font-sans">
+		<!-- Navbar -->
+		<header class="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md z-50">
+			<nav
+				class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4"
+			>
+				<!-- Logo -->
+				<h1 class="text-2xl font-bold text-yellow-400">
+					Car<span class="text-white">Auction</span>
+				</h1>
+
+				<!-- Centered Nav Links -->
+				<ul class="hidden md:flex space-x-8 font-medium mx-auto">
+					<li>
+						<a
+							href="index.html"
+							class="hover:text-yellow-400 font-semibold transition"
+							>Home</a
+						>
+					</li>
+					<li>
+						<a href="about.html" class="text-yellow-400 transition"
+							>About</a
+						>
+					</li>
+					<li>
+						<a href="contact.html" class="hover:text-yellow-400 transition"
+							>Contact</a
+						>
+					</li>
+				</ul>
+
+				<!-- Auth Buttons -->
+				<div class="hidden md:flex space-x-3">
+					<a
+						href="login.html"
+						class="px-4 py-2 border border-yellow-400 text-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-black transition"
+					>
+						Login
+					</a>
+					<a
+						href="register.html"
+						class="px-4 py-2 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition"
+					>
+						Register
+					</a>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Hero Section -->
+		<section
+			class="relative h-[60vh] bg-cover bg-[url(https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=2000&q=80)] bg-center flex items-center justify-center mt-[72px]"
+		>
+			<div class="absolute inset-0 bg-black/70"></div>
+			<div class="relative text-center max-w-2xl">
+				<h1 class="text-5xl font-bold text-yellow-400 mb-2">About Us</h1>
+				<p class="text-gray-200">Driven by passion. Committed to excellence.</p>
+			</div>
+		</section>
+
+		<!-- About Content -->
+		<section
+			class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center"
+		>
+			<div>
+				<img
+					src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
+					alt="Car auction"
+					class="rounded-2xl shadow-lg"
+				/>
+			</div>
+
+			<div>
+				<h2 class="text-3xl font-bold text-yellow-400 mb-4">Who We Are</h2>
+				<p class="text-gray-300 mb-6 leading-relaxed">
+					CarAuction is a trusted online platform connecting car enthusiasts,
+					dealers, and sellers across the globe. Our mission is to simplify car
+					trading by providing a transparent, fast, and secure auction
+					experience.
+				</p>
+
+				<h3 class="text-2xl font-semibold text-yellow-300 mb-3">Our Vision</h3>
+				<p class="text-gray-400 mb-6">
+					To revolutionize the automotive auction industry by embracing
+					innovation, trust, and customer satisfaction.
+				</p>
+
+				<div class="grid sm:grid-cols-2 gap-4 mt-8">
+					<div class="flex items-start gap-3">
+						<i class="fa-solid fa-gavel text-yellow-400 text-2xl"></i>
+						<div>
+							<h4 class="font-semibold text-white">Transparent Auctions</h4>
+							<p class="text-gray-400 text-sm">
+								Bid with confidence and fairness.
+							</p>
+						</div>
+					</div>
+					<div class="flex items-start gap-3">
+						<i class="fa-solid fa-car text-yellow-400 text-2xl"></i>
+						<div>
+							<h4 class="font-semibold text-white">Verified Vehicles</h4>
+							<p class="text-gray-400 text-sm">
+								Every car is thoroughly inspected.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Team Section -->
+		<section class="bg-gray-800 py-16">
+			<div class="max-w-6xl mx-auto px-6 text-center">
+				<h2 class="text-3xl font-bold text-yellow-400 mb-10">Meet Our Team</h2>
+				<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+					<div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition">
+						<img
+							src="https://randomuser.me/api/portraits/men/32.jpg"
+							class="w-24 h-24 mx-auto rounded-full mb-4"
+							alt="Team Member"
+						/>
+						<h4 class="font-semibold text-lg">John Doe</h4>
+						<p class="text-yellow-300 text-sm mb-2">CEO</p>
+						<p class="text-gray-400 text-sm">
+							Leading innovation in automotive auctions.
+						</p>
+					</div>
+					<div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition">
+						<img
+							src="https://randomuser.me/api/portraits/women/44.jpg"
+							class="w-24 h-24 mx-auto rounded-full mb-4"
+							alt="Team Member"
+						/>
+						<h4 class="font-semibold text-lg">Sarah Smith</h4>
+						<p class="text-yellow-300 text-sm mb-2">Marketing Head</p>
+						<p class="text-gray-400 text-sm">
+							Connecting buyers and sellers globally.
+						</p>
+					</div>
+					<div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition">
+						<img
+							src="https://randomuser.me/api/portraits/men/12.jpg"
+							class="w-24 h-24 mx-auto rounded-full mb-4"
+							alt="Team Member"
+						/>
+						<h4 class="font-semibold text-lg">James Lee</h4>
+						<p class="text-yellow-300 text-sm mb-2">Operations Manager</p>
+						<p class="text-gray-400 text-sm">
+							Ensuring seamless auction processes.
+						</p>
+					</div>
+					<div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition">
+						<img
+							src="https://randomuser.me/api/portraits/women/21.jpg"
+							class="w-24 h-24 mx-auto rounded-full mb-4"
+							alt="Team Member"
+						/>
+						<h4 class="font-semibold text-lg">Emily Davis</h4>
+						<p class="text-yellow-300 text-sm mb-2">Customer Support</p>
+						<p class="text-gray-400 text-sm">
+							Providing assistance 24/7 with care.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-gray-900 text-gray-300 py-12">
+			<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+				<!-- Logo & About -->
+				<div>
+					<a href="index.html" class="flex items-center gap-2 mb-4">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="currentColor"
+							class="w-8 h-8 text-yellow-500"
+							viewBox="0 0 24 24"
+						>
+							<path
+								d="M12 2l10 6-10 6L2 8l10-6zM2 8v8l10 6 10-6V8l-10 6L2 8z"
+							/>
+						</svg>
+						<span class="text-2xl font-bold text-white"
+							>Car<span class="text-yellow-500">Auction</span></span
+						>
+					</a>
+					<p class="text-sm leading-relaxed">
+						Your trusted platform for buying and selling vehicles. Safe, fast,
+						and transparent online car auctions.
+					</p>
+				</div>
+
+				<!-- Quick Links -->
+				<div>
+					<h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+					<ul class="space-y-2">
+						<li>
+							<a href="index.html" class="hover:text-yellow-500 transition"
+								>Home</a
+							>
+						</li>
+						<li>
+							<a href="about.html" class="hover:text-yellow-500 transition"
+								>About Us</a
+							>
+						</li>
+						<li>
+							<a href="contact.html" class="hover:text-yellow-500 transition"
+								>Contact</a
+							>
+						</li>
+						<li>
+							<a href="login.html" class="hover:text-yellow-500 transition"
+								>Login</a
+							>
+						</li>
+						<li>
+							<a href="register.html" class="hover:text-yellow-500 transition"
+								>Register</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Contact Info -->
+				<div>
+					<h3 class="text-white text-lg font-semibold mb-4">Get in Touch</h3>
+					<ul class="space-y-2">
+						<li>
+							<span class="font-medium">Email:</span> support@carauction.com
+						</li>
+						<li><span class="font-medium">Phone:</span> +1 800 123 4567</li>
+						<li>
+							<span class="font-medium">Location:</span> 123 Auto Street, New
+							York, USA
+						</li>
+					</ul>
+					<div class="flex gap-4 mt-4">
+						<a href="#" class="hover:text-yellow-500"
+							><i class="fa-brands fa-facebook-f"></i
+						></a>
+						<a href="#" class="hover:text-yellow-500"
+							><i class="fa-brands fa-twitter"></i
+						></a>
+						<a href="#" class="hover:text-yellow-500"
+							><i class="fa-brands fa-instagram"></i
+						></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm">
+				© <span id="year"></span> CarAuction. All rights reserved.
+			</div>
+
+			<script>
+				document.getElementById("year").textContent = new Date().getFullYear();
+			</script>
+		</footer>
+	</body>
+</html>
